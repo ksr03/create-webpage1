@@ -60,3 +60,9 @@ ul#menu {
     background-color: #000066;  /*リンクにマウスが乗ったら背景色を変更する*/
     background-image: url(images/bg_menu2.png); /*リンクにマウスが乗ったら背景画像を変更する*/
 }
+
+/*メインメニュー*/
+#img_index {
+    width: 960px; height: 360px;    /*トップページのヘッダ画像の表示サイズを指定*/
+    margin: 5px 20px;   /*マージン*/
+}
