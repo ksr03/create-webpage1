@@ -1,14 +1,25 @@
 @charset "utf-8";
+
+/*全般的なスタイル*/
+* {
+    margin: 0; padding: 0;  /*全要素のマージン・パディングをリセット*/
+}
 body {
+    background-color: #cccccc;
     font-size:95%;                                 /*フォントサイズを95%にする*/
     font-family: "ＭＳ ゴシック", sans-serif;       /*フォントをゴシック系にする*/
     line-height:1.5;                               /*行の高さを1.5倍にする*/
     color: #333333;                              /*文字色を濃い目のグレーにする*/
 }
+div#pagebody {
+    width: 1000px; margin: 0 auto;
+    background-color: #ffffff;
+}
 
 /*メインメニュー*/
 ul#menu {
     width: 960px; height: 50px;  /*メインメニュー部分の幅と高さ*/
+    margin: 0 20px; /*上下マージン0px、左右マージン20px*/
 }
 #menu li {
     list-style-type: none;                          /*リストマーカー無しにする*/
