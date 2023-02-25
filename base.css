@@ -66,6 +66,19 @@ ul#menu {
     width: 960px; height: 360px;    /*トップページのヘッダ画像の表示サイズを指定*/
     margin: 5px 20px;   /*マージン*/
 }
+
+/*サブメニュー（左カラム）*/
+div#submenu {
+    width: 260px;   /*幅の指定*/
+    float: left;    /*サブメニューのカラムを左寄せにする*/
+}
+
+/*インフォメーション（右カラム）*/
+div#info {
+    width: 660px;   /*幅の指定*/
+    float: left;    /*カラムを左寄せにする*/
+}
+
 .infoimg_index {
     width:200px; height: 200px; /*画像の表示サイズを指定*/
     margin: 0px 0px 20px 20px;  /*マージン*/
@@ -73,4 +86,9 @@ ul#menu {
 }
 hr {
     clear:both; /*フロート配置をクリアする*/
+}
+
+/*フッタ*/
+div#footer {
+    clear: both;    /*回り込みを解除する*/
 }
