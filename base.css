@@ -61,8 +61,16 @@ ul#menu {
     background-image: url(images/bg_menu2.png); /*リンクにマウスが乗ったら背景画像を変更する*/
 }
 
-/*メインメニュー*/
+/*ヘッダ画像*/
 #img_index {
     width: 960px; height: 360px;    /*トップページのヘッダ画像の表示サイズを指定*/
     margin: 5px 20px;   /*マージン*/
+}
+.infoimg_index {
+    width:200px; height: 200px; /*画像の表示サイズを指定*/
+    margin: 0px 0px 20px 20px;  /*マージン*/
+    float: right;   /*画像を右寄せにする*/
+}
+hr {
+    clear:both; /*フロート配置をクリアする*/
 }
