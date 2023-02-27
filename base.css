@@ -68,6 +68,15 @@ ul#menu {
 }
 
 /*サブメニュー（左カラム）*/
+h2 {
+    width: 160px;   height: 43px;   /*幅と高さ*/
+    padding: 17px 0px 0px 100px;    /*パディング*/
+    font-size: 16px;    /*フォントサイズ*/
+    background-image: url(images/bg_h2.png);    /*背景画像*/
+    background-repeat: no-repeat;   /*背景画像を繰り返さない*/
+    background-color: #000033;  /*背景色*/
+    color: #ffffff; /*文字色*/
+}
 div#submenu {
     width: 260px;   /*幅の指定*/
     margin: 10px 10px 10px 25px;    /*位置調整*/
@@ -97,6 +106,14 @@ div#submenu ul li a:hover {
 div#info {
     width: 660px;   /*幅の指定*/
     float: left;    /*カラムを左寄せにする*/
+}
+h3 {
+    font-size: 14px;    /*文字サイズ*/
+    width: 660px;   /*横幅*/
+    padding: 10px 0px 10px 20px;    /*パディング*/
+    background-color: #003399;  /*背景色*/
+    color: #ffffff; /*文字色*/
+    border-radius: 3px; /*角丸にする*/
 }
 
 .infoimg_index {
