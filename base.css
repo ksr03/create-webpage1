@@ -147,6 +147,10 @@ h3 {
     margin: 0px 20px 20px 0px;  /*マージン*/
     float: left;    /*画像を左寄せにする*/
 }
+.infoimg_tel {
+    display: block; /*ブロック表示にする*/
+    width: 400px; height: 80px; /*画像の表示サイズを指定*/
+}
 hr {
     clear:both; /*フロート配置をクリアする*/
 }
